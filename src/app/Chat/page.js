@@ -2,6 +2,7 @@ import React from "react";
 import "../../../styles/chat.css";
 import Image from "next/image";
 import Header from "../Header/page";
+import Footer from "../Footer/page";
 
 const ChatPage = () => {
   const chatData = [
@@ -57,6 +58,8 @@ const ChatPage = () => {
   ];
 
   return (
+    <>
+     <Header />
     <div className="chat-container">
       <h1 className="chat-title">Chats</h1>
       <ul className="chat-list">
@@ -78,6 +81,8 @@ const ChatPage = () => {
         ))}
       </ul>
     </div>
+    <Footer />
+    </>
   );
 };
 
