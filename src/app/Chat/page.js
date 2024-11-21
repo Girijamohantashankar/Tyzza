@@ -1,6 +1,7 @@
 import React from "react";
 import "../../../styles/chat.css";
 import Image from "next/image";
+import Header from "../Header/page";
 
 const ChatPage = () => {
   const chatData = [
