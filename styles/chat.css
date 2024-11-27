@@ -1,7 +1,13 @@
 .chat-container {
   font-family: 'Arial', sans-serif;
-  padding: 20px;
+  padding: 12px;
   background-color: #f8f9fa;
+  height: 90vh;
+  overflow: auto;
+}
+
+.chat-container::-webkit-scrollbar {
+  display: none;
 }
 
 .chat-title {

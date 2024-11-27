@@ -27,7 +27,7 @@ function Footer() {
                         <Typography className={`footer_title ${activeTab === 'chats' ? 'active' : ''}`}>Chats</Typography>
                     </div>
                 </Link>
-                <Link href="/communities" passHref>
+                <Link href="/Communities" passHref>
                     <div
                         className={`footer_tab ${activeTab === 'communities' ? 'active' : ''}`}
                         onClick={() => handleTabChange('communities')}

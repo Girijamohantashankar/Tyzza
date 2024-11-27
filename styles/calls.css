@@ -1,0 +1,76 @@
+.calls-page {
+    font-family: Arial, sans-serif;
+    margin-top: 40px;
+    padding: 12px;
+    height: 70vh;
+    overflow: auto;
+}
+
+.calls-page::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.calls-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.call-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.call-item:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+.call-actions {
+    display: flex;
+    gap: 15px;
+}
+
+.icon {
+    font-size: 24px;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.call-icon:hover {
+    color: #007bff;
+    /* Blue for call */
+}
+
+.video-call-icon:hover {
+    color: #28a745;
+    /* Green for video call */
+}
